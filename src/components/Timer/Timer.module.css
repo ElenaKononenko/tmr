@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  background-color: rgb(201, 139, 139);
+  color: rgb(250, 235, 215, 0.5);
+  margin-top: 200px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  color: rgb(250, 235, 215);
+}
+.timer {
+  display: flex;
+  justify-content: center;
+}
+.field {
+  position: relative;
+  display: block;
+  background-color: antiquewhite;
+  width: 300px;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 30%;
+
+  font-size: 30px;
+}
+.value {
+  color: rgb(156, 54, 40);
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+}
+.label {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
